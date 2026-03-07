@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Geist", sans-serif;
+    display: flex;
+    background-color: #f8fafc;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.shadow{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+.navbar{
+    width: 100%;
+    /* margin-top: 20px; */
+    
+}
+.top-bar{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.topbar-left{
+    align-items: center;
+    gap: 3px;
+    
+}
+
+.topbar-left img{
+    width: 37px;
+    height: 37px;
+
+}
+
+.logo-title{
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1F2937;
+
+}
+
+.search-box{
+    width: 300px;
+    padding: 14px 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #64748B;
+    font-weight: 400;
+    outline: none;
+
+}
+.nav-btn{
+    background-color: #4A00FF;
+    color: white;
+    padding: 14px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #4A00FF;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.nav-btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+
