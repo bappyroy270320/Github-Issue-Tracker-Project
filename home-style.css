@@ -6,7 +6,7 @@
 
 body{
     font-family: "Geist", sans-serif;
-    display: flex;
+    /* display: flex; */
     background-color: #f8fafc;
     justify-content: center;
     align-items: center;
@@ -86,4 +86,114 @@ body{
     color: black;
 }
 
+.three-btn{
+    width: 85%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    /* text-align: center; */
+    margin-top: 60px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    
+    
+}
+
+.btn{
+    background-color: #F8FAFC;
+    border: 1px solid #E4E4E7;
+    color: #64748B;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 10px 38.5px 10px 38.5px;
+    margin-right: 8px;
+    
+}
+
+.btn-primary{
+    background-color: #4A00FF;
+    border: 1px solid #E4E4E7;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 10px 38.5px 10px 38.5px;
+    margin-right: 8px;
+}
+.counting{
+    /* width: 85%; */
+    margin-top: 16px;
+}
+.counting-section{
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding-top:  24px; 
+    padding-bottom:  24px; 
+    padding-left:  24px; 
+    border-radius: 6px;
+    justify-content: space-between;
+    
+}
+
+.img-div{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: #ece4ff;
+    border-radius: 50px;
+    margin-right: 8px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.counting-title{
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: 600;
+
+
+}
+.counting-para{
+    font-size: 16px;
+    color: #64748B;
+    font-weight: 400;
+
+}
+.open-div{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+.green-dot{
+    /* display: flex; */
+    height: 12px;
+    width: 12px;
+    background-color: #00A96E;
+    border-radius: 50px;
+    
+    
+
+}
+.purple-dot{
+    height: 12px;
+    width: 12px;
+    background-color: #A855F7;
+    border-radius: 50px;
+
+}
+
+.dot-para{
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
 
