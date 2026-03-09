@@ -9,7 +9,7 @@ async function issuesFetchData() {
 
   displayIssues(issues);
 }
-// display issues
+
 
 const displayIssues = (issues) => {
   //   console.log(issues);
@@ -104,7 +104,7 @@ function toggleBtn(id) {
   allbtn.classList.remove("btn-primary", "text-white");
   openBtn.classList.remove("btn-primary", "text-white");
   closeBtn.classList.remove("btn-primary", "text-white");
-  // add color
+  // color-color added
   allbtn.classList.add("bg-white", "text-black");
   openBtn.classList.add("bg-white", "text-black");
   closeBtn.classList.add("bg-white", "text-black");
@@ -113,7 +113,7 @@ function toggleBtn(id) {
   clickbtn.classList.add("bg-blue-500", "text-white");
   clickbtn.classList.remove("bg-white", "text-black");
   // section data
-  // je btn a click krsi..setar data dekhasse..atar functionality akhne...
+
   setTimeout(() => {
     if (id === "open-btn") {
       filteredIssues = issues.filter((issue) => issue.status === "open");
@@ -133,7 +133,7 @@ function toggleBtn(id) {
   }, 300);
 }
 
-// akhne ja seacrah dissi tai passi
+// search
 document
   .getElementById("search-btn")
   .addEventListener("click", async function () {
@@ -162,7 +162,7 @@ document
     searchValue.value = "";
   });
 
-// for modal fetch
+// modal
 async function useModal(id) {
   const res = await fetch(
     `https://phi-lab-server.vercel.app/api/v1/lab/issue/${id}`,
